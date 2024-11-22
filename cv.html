@@ -1,0 +1,22 @@
+<html>
+<body>
+<form enctype="multipart/form-data" action="http://localhost/upload.php" method="POST" onsubmit="return validate()">
+<div>
+<label> cv </label>
+<input type="file" id="upldcv" name="upldcv">
+</div>
+<div class="button">
+<button type="submit"> Upload </button>
+</div>
+<script>
+function validate()
+{
+if(document.getElementById('upldcv').files.length==0)
+{
+	alert("nono");
+	return false;
+	}
+	
+	}
+</script>
+</html>

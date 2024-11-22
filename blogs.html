@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs - EduConnect Hub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url("back.jpg");
+            background-position: center;
+            background-size: cover;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px;
+        }
+        nav {
+            width: 100%;
+            height: 50px;
+            display: flex;
+            /* justify-content: center; */
+            align-items: center;
+            padding: 15px 6%;
+            transition: all 1s ease;
+        }
+        nav .logo {
+            display: flex;
+            align-items:center;
+              }
+        nav .logo img {
+            width: 60px;
+        }
+        /* nav ul {
+  display: inline-flex; 
+  list-style: none;
+  margin: 0; 
+  padding: 0;
+
+} 
+nav ul li {
+  font-size: 15px;
+  margin-right: 20px; 
+  font-family: 'poppins', 'Times New Roman', Times, serif;
+} */
+        /* nav ul li {
+            display: inline-block;
+            list-style: none;
+            font-size: 15px;
+            margin-right: 20px; /* Reduced spacing */
+            /* font-family: 'poppins', 'Times New Roman', Times, serif;
+        }  */
+
+        nav ul li {
+    display: inline-block;
+    list-style: none;
+    font-size: 15px;
+    margin-right: 20px; /* Reduced spacing */
+    font-family: 'poppins', 'Times New Roman', Times, serif;
+}
+        nav ul li:last-child {
+            margin-right: 0; /* Remove margin from the last item */
+        }
+        nav ul li a {
+            display: block;
+            left: 0;
+            text-decoration: none;
+            color: #b0b5bb;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            align-items: center;
+            font-weight: 700;
+        }
+       /* nav:hover {
+            background-color: #14405a;
+        }*/
+        nav:hover ul li a {
+            color: #74a5be;
+            text-shadow: 1px 0px 7px #607f9e;
+        }
+        .header2 {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        .header h1 {
+            color: #eceff1;
+            font-size: 36px;
+        }
+        .header p {
+            color: #d8d9db;
+            font-size: 18px;
+            margin-top: 10px;
+        }
+        .blogs {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .blog {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #ccc;
+        }
+        .blog h2 {
+            color: #1f4b68;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .blog p {
+            color: #163661;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        /* footer {
+            background-color: #1f4b68;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        } */
+        .footer {
+    background-color: #1c5483; /* Background color */
+    padding: 50px 0; /* Padding */
+    display: flex; /* Add flexbox display */
+    justify-content: space-around; /* Spread items evenly */
+}
+
+.footer .container {
+    display: flex; /* Nested flexbox for better alignment */
+    justify-content: space-between; /* Spread items evenly */
+    align-items: center; /* Center items vertically */
+    flex-wrap: wrap; /* Wrap items if they overflow */
+}
+
+.footer .container .row {
+    flex-basis: 100%; /* Take full width of container */
+    display: flex; /* Nested flexbox */
+    justify-content: space-between; /* Spread items evenly */
+}
+
+.footer .container .row .col-md-6 {
+    flex-basis: 45%; /* Adjust width for responsiveness */
+}
+
+.footer h3 {
+    color: #fdfafa; /* Text color */
+    font-size: 24px; /* Font size */
+    margin-bottom: 20px; /* Margin bottom */
+}
+
+.footer p {
+    color: #c5bcbc; /* Text color */
+    font-size: 16px; /* Font size */
+    margin-bottom: 20px; /* Margin bottom */
+}
+
+.footer .social-icons {
+    list-style: none; /* Remove list styles */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove default margin */
+}
+
+.footer .social-icons li {
+    display: inline-block; /* Display icons inline */
+    margin-right: 10px; /* Margin right between icons */
+}
+
+.footer .social-icons li:last-child {
+    margin-right: 0; /* Remove margin right for the last icon */
+}
+
+.footer .social-icons a {
+    color: #333; /* Icon color */
+    font-size: 20px; /* Icon size */
+}
+
+.footer .social-icons a:hover {
+    color: #007bff; /* Icon color on hover */
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <section class="header2">
+            <nav>
+                <div class="logo">
+                    <img src="m.png" alt="">
+                </div>
+                <ul>
+                  
+                    <li><a href="inndex.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">contacts</a></li>
+                    <li><a href="blogs.html">Blogs</a></li>
+                </ul>
+                <!-- <div class="links">
+                    <a href="signup.html">Sign in</a>
+                    <a href="login.html">login</a>
+                </div> -->
+            </nav>
+        </section>
+        <div class="header">
+            <h1>Blogs - EduConnect Hub</h1>
+            <p>Explore our latest blogs and articles.</p>
+        </div>
+        <div class="blogs">
+            <div class="blog">
+                <h2>Tips for Effective Online Learning</h2>
+                <p>Online learning success hinges on effective time management and 
+                    active engagement. Firstly, establish a dedicated study space and schedule 
+                    to maintain consistency and focus. Break down tasks into manageable chunks 
+                    and utilize digital tools for organization. Actively participate in
+                    discussions, virtual classrooms, and interactive learning resources to 
+                    enhance engagement and understanding. Secondly, prioritize communication 
+                    with instructors and peers to clarify doubts and seek feedback. Foster a 
+                    sense of community by joining study groups and collaborating on projects.
+                     Remember to balance study sessions with regular breaks to prevent burnout, 
+                     and stay adaptable to changes in the learning environment to optimize your
+                      online learning experience.</p>
+            </div>
+            <div class="blog">
+                <h2>The Importance of Networking for Career Growth</h2>
+                <p>Networking plays a pivotal role in career growth, serving as a catalyst for professional advancement and personal development. Firstly, networking facilitates access to a broader pool of opportunities by connecting individuals with like-minded professionals, mentors, and industry leaders. Building meaningful relationships within your field opens doors to job opportunities, collaborations, and valuable insights into industry trends and best practices.</p>
+
+                   <p> Secondly, networking cultivates a supportive community that offers guidance, advice, and encouragement throughout your career journey. Engaging with professionals who share similar goals and interests provides a platform for knowledge exchange and mutual support. Additionally, networking enables exposure to diverse perspectives and experiences, fostering creativity and innovation in problem-solving.</p>
+                    
+                    <p>Furthermore, effective networking enhances visibility and credibility within your industry, establishing you as a reputable and trusted professional. By attending industry events, conferences, and networking gatherings, you can showcase your expertise, expand your professional circle, and build a strong personal brand. As a result, networking not only opens doors to new opportunities but also accelerates career growth by enhancing your professional
+                     reputation and widening your sphere of influence.</p>
+            </div>
+            <!-- Add more blogs here -->
+        </div>
+    </div>
+    <!-- <footer>
+        &copy; 2024 EduConnect Hub. All rights reserved.
+    </footer> -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Contact Us</h3>
+                    <p>Address: 123 Street, City, Country</p>
+                    <p>Email: info@example.com</p>
+                    <p>Phone: +1234567890</p>
+                </div>
+                <div class="col-md-6">
+                    <h3>Follow Us</h3>
+                    <p>instagram: EduConnect123</p>
+                    <p>facebook: eduhub</p>
+             
+                    <ul class="social-icons">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <!-- Add more social icons as needed -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #214172;
+    margin: 0;
+    padding: 0;
+}
+  
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+  
+.form-container {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    width: 600px; /* Adjusted width to accommodate both image and form */
+    display: flex;
+}
+
+.image-container {
+    flex: 1; /* Takes up 50% of the width */
+    padding-right: 20px; /* Adds some space between image and form */
+}
+.image-container img {
+    max-width: 100%; /* Set maximum width to 100% */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.form {
+    flex: 1; /* Takes up 50% of the width */
+}
+
+.form-container h2 {
+    margin-top: 0;
+}
+  
+.form-group {
+    margin-bottom: 20px;
+}
+  
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+  
+.form-group input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+  
+button {
+    padding: 10px 20px;
+    background-color: #234d7b;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+  
+button:hover {
+    background-color: burlywood;
+}

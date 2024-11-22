@@ -1,0 +1,79 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popular Courses</title>
+    <link rel="stylesheet" href="pop.css">
+    <!-- Add FontAwesome for icons -->
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F0FFFF;
+    margin: 0;
+    padding: 20px;
+}
+.header{
+    margin:50px;
+	font-family:sans-serif;
+}
+
+.courses-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.course {
+    background-color: #8cb7e5;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.course i {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+.course:hover {
+    transform: translateY(-10px);
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+}
+</style>
+</head>
+<body>
+    <div class="header">
+    <h1>POPULAR COURSES</h1>
+    </div>
+    <div class="courses-container">
+        <div class="course" id="engineering">
+            <i class="fas fa-cogs"></i>
+            <h2>Engineering</h2>
+        </div>
+        <div class="course" id="bcom">
+            <i class="fas fa-chart-line"></i>
+            <h2>B.Com</h2>
+        </div>
+        <div class="course" id="mba">
+            <i class="fas fa-business-time"></i>
+            <h2>MBA</h2>
+        </div>
+        <div class="course" id="mbbs">
+            <i class="fas fa-stethoscope"></i>
+            <h2>MBBS</h2>
+        </div>
+    </div>
+</body>
+</html>
+ 

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="LoginCss.css">
+</head>
+<body>
+  <div class="container">
+    <div class="form-container">
+        <div class="image-container">
+            <img src="./welcme2.jpeg" alt="Login Image">
+        </div>
+        <div class="form">
+            <form id="login-form" action="http://localhost/login.php" method="post">
+                <h2>SignUp</h2>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password_hash" name="password_hash" required>
+                </div>
+                <button type="submit">SignUp</button>
+            </form>
+        </div>
+    </div>
+  </div>
+</body>
+</html>
